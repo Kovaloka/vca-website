@@ -21,12 +21,18 @@ function Hero() {
 
       {/* CTA Buttons */}
       <div className="flex gap-4">
-        <button className="bg-[#c9a84c] text-black font-bold px-6 py-3 rounded-lg hover:bg-yellow-400 transition-colors">
+        <a
+          href="#contact"
+          className="bg-[#fad6a5] text-[#1a2b4a] font-bold px-6 py-3 rounded-lg hover:bg-yellow-400 transition-colors"
+        >
           Apply Now
-        </button>
-        <button className="border border-gray-500 text-white px-6 py-3 rounded-lg hover:border-[#c9a84c] hover:text-[#c9a84c] transition-colors">
+        </a>
+        <a
+          href="#about"
+          className="border border-gray-500 text-white px-6 py-3 rounded-lg hover:border-[#fad6a5] hover:text-[#fad6a5] transition-colors"
+        >
           Learn More
-        </button>
+        </a>
       </div>
 
     </section>

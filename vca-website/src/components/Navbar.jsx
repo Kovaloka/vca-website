@@ -27,11 +27,7 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* CTA Button */}
-        <button className="bg-[#fad6a5] text-[#1a2b4a] font-bold px-4 py-2 rounded-lg hover:bg-yellow-400 transition-colors">
-          Apply Now
-        </button>
-
+        
       </nav>
     </div>
   )
