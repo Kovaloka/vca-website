@@ -9,7 +9,7 @@ function About() {
 
       {/* Headline */}
       <h2 className="text-4xl font-bold text-white mb-6">
-        Where Finance Meets Ambition
+        Where Venture Capital Meets UCR
       </h2>
 
       {/* Description */}
@@ -23,8 +23,8 @@ function About() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
         <div className="border border-gray-800 rounded-xl p-6 hover:border-[#fad6a5] transition-colors">
-          <p className="text-[#fad6a5] text-3xl font-bold mb-2">Weekly</p>
-          <p className="text-gray-400 text-sm">Meetings every Tuesday at 7:30 PM</p>
+          <p className="text-[#fad6a5] text-3xl font-bold mb-2">Meeting Schedule</p>
+          <p className="text-gray-400 text-sm">Meetings on Tuesdays at 7:30 PM, the weekly schedule may vary based on project completion, but the day and time stay the same.</p>
         </div>
 
         <div className="border border-gray-800 rounded-xl p-6 hover:border-[#fad6a5] transition-colors">
@@ -33,8 +33,8 @@ function About() {
         </div>
 
         <div className="border border-gray-800 rounded-xl p-6 hover:border-[#fad6a5] transition-colors">
-          <p className="text-[#fad6a5] text-3xl font-bold mb-2">3 Pillars</p>
-          <p className="text-gray-400 text-sm">Finance · Entrepreneurship · Career Guidance</p>
+          <p className="text-[#fad6a5] text-3xl font-bold mb-2">Our Ambition</p>
+          <p className="text-gray-400 text-sm">VCA connects students with industry leaders such as venture capitalists, entrepreneurs, and investors. The organization also actively promotes entrepreneurship, offering resources and guidance for students interested in developing and launching their own business ventures.</p>
         </div>
 
       </div>
