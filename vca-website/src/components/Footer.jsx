@@ -21,7 +21,7 @@ function Footer() {
               All majors welcome at UC Riverside.
             </p>
             <p className="text-gray-600 text-xs">
-              Meetings every Tuesday at 8:30 PM
+              Meetings Tuesday at 7:30 PM
             </p>
           </div>
 

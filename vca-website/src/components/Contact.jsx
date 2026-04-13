@@ -85,7 +85,7 @@ function Contact() {
               Weekly Meetings
             </p>
             <p className="text-white font-bold text-2xl">Tuesdays</p>
-            <p className="text-gray-400">8:30 PM · UC Riverside</p>
+            <p className="text-gray-400">7:30 PM · HUB 265</p>
           </div>
 
           <div className="border-t border-gray-800" />
@@ -95,8 +95,8 @@ function Contact() {
             <p className="text-[#fad6a5] text-xs font-semibold tracking-widest uppercase mb-2">
               Location
             </p>
-            <p className="text-white">Riverside, CA</p>
-            <p className="text-gray-400 text-sm">United States</p>
+            <p className="text-white">University of California, Riverside</p>
+            <p className="text-gray-400">900 University Ave, Riverside, CA 92521</p>
           </div>
 
           <div className="border-t border-gray-800" />
