@@ -10,7 +10,7 @@ function SideNav() {
         setVisible(true)
       } else {
         setVisible(false)
-        setHidden(false) // reset hide when back at top
+        setHidden(false)
       }
     }
     window.addEventListener('scroll', handleScroll)
@@ -18,58 +18,81 @@ function SideNav() {
   }, [])
 
   return (
-    <div
-      className="fixed left-0 top-1/2 -translate-y-1/2 z-50 flex items-center transition-all duration-500"
-      style={{
-        transform: `translateY(-50%) translateX(${visible && !hidden ? '0px' : '-100%'})`,
-        transition: 'transform 0.5s ease-in-out'
-      }}
-    >
-      {/* Side Nav Panel */}
-      <div className="bg-black/60 backdrop-blur-md border border-gray-800 rounded-r-2xl py-6 px-4 flex flex-col gap-6">
+    <>
+      {/* Mobile — top bar */}
+      <div
+        className="md:hidden fixed top-0 inset-x-0 z-50 transition-all duration-500"
+        style={{
+          transform: `translateY(${visible && !hidden ? '0px' : '-100%'})`,
+          transition: 'transform 0.5s ease-in-out'
+        }}
+      >
+        <div className="bg-black/70 backdrop-blur-md border-b border-gray-800 px-6 py-3 flex items-center justify-between">
+          
+          {/* Links */}
+          <div className="flex gap-4 overflow-x-auto">
+            <a href="#home" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">Home</a>
+            <a href="#about" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">About</a>
+            <a href="#events" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">Events</a>
+            <a href="#eboard" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">E-Board</a>
+            <a href="#contact" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">Contact</a>
+          </div>
 
-        {/* Links */}
-        <a href="#home" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">
-          Home
-        </a>
-        <a href="#about" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">
-          About
-        </a>
-        <a href="#events" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">
-          Events
-        </a>
-        <a href="#eboard" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">
-          E-Board
-        </a>
-        <a href="#contact" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">
-          Contact
-        </a>
+          {/* Hide Button */}
+          <button
+            onClick={() => setHidden(true)}
+            className="text-gray-600 hover:text-red-400 transition-colors text-xs ml-4 shrink-0"
+          >
+            Hide
+          </button>
 
-        {/* Divider */}
-        <div className="border-t border-gray-800 w-full" />
+        </div>
 
-        {/* Hide Button */}
-        <button
-          onClick={() => setHidden(true)}
-          className="text-gray-600 hover:text-red-400 transition-colors text-xs"
-        >
-          Hide
-        </button>
-
+        {/* Show Tab when hidden */}
+        {hidden && (
+          <button
+            onClick={() => setHidden(false)}
+            className="absolute right-4 top-0 bg-black/70 backdrop-blur-md border border-gray-800 border-t-0 rounded-b-xl px-3 py-1 text-gray-400 hover:text-[#fad6a5] transition-colors text-xs"
+          >
+            Menu
+          </button>
+        )}
       </div>
 
-      {/* Show Tab — visible when hidden */}
-      {hidden && (
-        <button
-          onClick={() => setHidden(false)}
-          className="bg-black/60 backdrop-blur-md border border-gray-800 border-l-0 rounded-r-xl px-2 py-4 text-gray-400 hover:text-[#fad6a5] transition-colors text-xs writing-mode-vertical"
-          style={{ writingMode: 'vertical-rl' }}
-        >
-          Menu
-        </button>
-      )}
+      {/* Desktop — left side */}
+      <div
+        className="hidden md:flex fixed left-0 top-1/2 -translate-y-1/2 z-50 items-center transition-all duration-500"
+        style={{
+          transform: `translateY(-50%) translateX(${visible && !hidden ? '0px' : '-100%'})`,
+          transition: 'transform 0.5s ease-in-out'
+        }}
+      >
+        <div className="bg-black/60 backdrop-blur-md border border-gray-800 rounded-r-2xl py-6 px-4 flex flex-col gap-6">
+          <a href="#home" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">Home</a>
+          <a href="#about" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">About</a>
+          <a href="#events" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">Events</a>
+          <a href="#eboard" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">E-Board</a>
+          <a href="#contact" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm">Contact</a>
+          <div className="border-t border-gray-800 w-full" />
+          <button
+            onClick={() => setHidden(true)}
+            className="text-gray-600 hover:text-red-400 transition-colors text-xs"
+          >
+            Hide
+          </button>
+        </div>
 
-    </div>
+        {hidden && (
+          <button
+            onClick={() => setHidden(false)}
+            className="bg-black/60 backdrop-blur-md border border-gray-800 border-l-0 rounded-r-xl px-2 py-4 text-gray-400 hover:text-[#fad6a5] transition-colors text-xs"
+            style={{ writingMode: 'vertical-rl' }}
+          >
+            Menu
+          </button>
+        )}
+      </div>
+    </>
   )
 }
 
