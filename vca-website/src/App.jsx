@@ -106,7 +106,7 @@ function App() {
         <div id="contact"><Contact /></div>
         <Footer />
       </div>
-
+        <div className="min-h-screen bg-black relative max-w-full overflow-x-hidden"></div>
     </div>
   )
 }
