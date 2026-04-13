@@ -14,7 +14,7 @@ function About() {
 
       {/* Description */}
       <p className="text-gray-400 text-lg max-w-2xl mb-12 leading-relaxed">
-        The Venture Capitalist Association at UC Riverside brings together students 
+        The Venture Capital Association at UC Riverside brings together students 
         passionate about finance, entrepreneurship, and career development. 
         All majors are welcome — no experience required.
       </p>

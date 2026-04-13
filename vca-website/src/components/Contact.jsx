@@ -113,7 +113,7 @@ function Contact() {
               rel="noopener noreferrer"
               className="text-white hover:text-[#fad6a5] transition-colors text-sm"
             >
-              @VCAUCR on Instagram →
+              @vcaucr on Instagram →
             </a>
           </div>
 

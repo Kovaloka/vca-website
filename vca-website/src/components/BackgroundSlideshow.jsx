@@ -1,20 +1,20 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 
 function BackgroundSlideshow() {
   const [currentImage, setCurrentImage] = useState(0)
   const [opacity, setOpacity] = useState(0.15)
 
   // Swap these URLs with real VCA photos when you get them
-  const images = [
+  const images = useMemo(() => [
     'https://placehold.co/1920x1080/1a2b4a/fad6a5?text=VCA+Photo+1',
     'https://placehold.co/1920x1080/02029F/ffffff?text=VCA+Photo+2',
     'https://placehold.co/1920x1080/0f1a2e/fad6a5?text=VCA+Photo+3',
     'https://placehold.co/1920x1080/1a2b4a/ffffff?text=VCA+Photo+4',
     'https://placehold.co/1920x1080/02029F/fad6a5?text=VCA+Photo+5',
-  ]
+  ], [])
 
   // Sections mapped to image indices
-  const sections = ['home', 'about', 'events', 'eboard', 'contact']
+  const sections = useMemo(() => ['home', 'about', 'events', 'eboard', 'contact'], [])
 
   useEffect(() => {
     const observers = sections.map((id, index) => {
@@ -47,7 +47,7 @@ function BackgroundSlideshow() {
         if (obs && el) obs.unobserve(el)
       })
     }
-  }, [])
+  }, [images, sections])
 
   return (
     <div
