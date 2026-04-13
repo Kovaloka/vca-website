@@ -5,7 +5,7 @@ function Navbar() {
         
         {/* Logo */}
         <div className="text-xl font-bold text-white">
-          Venture Capitalist Association <span className="text-[#fad6a5] text-xs font-bold">@UCR</span>
+          Venture Capital Association <span className="text-[#fad6a5] text-xs font-bold">@UCR</span>
         </div>
 
         {/* Nav Links */}

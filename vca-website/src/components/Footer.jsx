@@ -62,7 +62,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-[#fad6a5] transition-colors text-sm"
             >
-              Instagram @VCAUCR
+              Instagram @vcaucr
             </a>
             <a
               href="https://flare-event.app.link/hBqt4olItXb"

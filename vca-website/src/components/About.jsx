@@ -14,7 +14,7 @@ function About() {
 
       {/* Description */}
       <p className="text-gray-400 text-lg max-w-2xl mb-12 leading-relaxed">
-        The Venture Capital Association at UC Riverside brings together students 
+        The Venture Capitalist Association at UC Riverside brings together students 
         passionate about finance, entrepreneurship, and career development. 
         All majors are welcome — no experience required.
       </p>
@@ -24,12 +24,12 @@ function About() {
 
         <div className="border border-gray-800 rounded-xl p-6 hover:border-[#fad6a5] transition-colors">
           <p className="text-[#fad6a5] text-3xl font-bold mb-2">Weekly</p>
-          <p className="text-gray-400 text-sm">Meetings every Tuesday at 8:30 PM</p>
+          <p className="text-gray-400 text-sm">Meetings every Tuesday at 7:30 PM</p>
         </div>
 
         <div className="border border-gray-800 rounded-xl p-6 hover:border-[#fad6a5] transition-colors">
           <p className="text-[#fad6a5] text-3xl font-bold mb-2">All Majors</p>
-          <p className="text-gray-400 text-sm">Finance, CS, biology — everyone belongs here</p>
+          <p className="text-gray-400 text-sm">VCA serves as a valuable platform for all majors, whether students wish to simply expand their knowledge of the startup world, start their own companies, or explore careers in venture capital</p>
         </div>
 
         <div className="border border-gray-800 rounded-xl p-6 hover:border-[#fad6a5] transition-colors">
