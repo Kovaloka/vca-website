@@ -27,13 +27,17 @@ function SideNav() {
           transition: 'transform 0.5s ease-in-out'
         }}
       >
-        <div className="bg-black/70 backdrop-blur-md border-b border-gray-800 px-6 py-3 flex items-center justify-between">
+        <div className="flex flex-col gap-1 flex-1">
           
           {/* Links */}
-          <div className="flex gap-4 overflow-x-auto">
+          <div className="flex gap-4">
             <a href="#home" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">Home</a>
             <a href="#about" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">About</a>
             <a href="#events" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">Events</a>
+          </div>
+
+          {/* Row 2 */}
+          <div className="flex gap-4">
             <a href="#eboard" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">E-Board</a>
             <a href="#contact" className="text-gray-400 hover:text-[#fad6a5] transition-colors text-sm whitespace-nowrap">Contact</a>
           </div>
