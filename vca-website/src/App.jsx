@@ -97,7 +97,7 @@ function App() {
       />
 
       {/* 3. Page Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 pt-20 md:pt-0">
         <Navbar />
         <div id="home"><Hero /></div>
         <div id="about"><About /></div>
