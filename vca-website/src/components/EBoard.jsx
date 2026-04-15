@@ -77,27 +77,27 @@ function EBoard() {
       description: "Leading VCA into the 2026-2027 school year with a focus on growth and new partnerships."
     },
     {
-      name: "Marcus",
+      name: "Marcus Hau",
       role: "Vice President of Strategy",
       description: "Supporting VCA's leadership and streamlining operations."
     },
     {
-      name: "Khalid",
+      name: "Khalid Kassab",
       role: "Director of Outreach & Initiative",
       description: "Creating opportunities for VCA members to engage with the broader community."
     },
     {
-      name: "Purav",
+      name: "Purav Goslia",
       role: "Vice President of Fundraising",
       description: "Sourcing and allocating funds for VCA's events and programs."
     },
     {
-      name: "Nidhi",
+      name: "Nidhi Sisodia",
       role: "Vice President of Administration",
       description: "Controlling VCA's administrative functions and ensuring smooth operations."
     },
     {
-      name: "Xavier",
+      name: "Xavier Scott",
       role: "Vice President of Marketing",
       description: "Creating workshopping events and promoting VCA's initiatives."
     },
