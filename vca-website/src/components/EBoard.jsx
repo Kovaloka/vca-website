@@ -1,7 +1,7 @@
 function EBoard() {
   const board2425 = [
     {
-      name: "Max Tunyan - Griffin Capital Management",
+      name: "Max Tunyan - Griffin Capital",
       role: "President & Founder, Business Administration - Finance",
       description: "Founded VCA in 2024 and led the organization through its inaugural year, establishing its mission and vision."
     },
@@ -44,17 +44,17 @@ function EBoard() {
   ]
   const board2526 = [
     {
-      name: "Nikhil Srivastava",
+      name: "Nikhil Srivastava - Bank of America",
       role: "President",
       description: "Leading VCA's vision, strategy, and partnerships across the 2025-2026 school year."
     },
     {
-      name: "Nikita Swaminathan",
+      name: "Nikita Swaminathan - Pepsico",
       role: "Vice President of Administration",
       description: "Overseeing VCA's administrative functions and ensuring smooth operations."
     },
     {
-      name: "Pierre Boktor",
+      name: "Pierre Boktor - Target",
       role: "Vice President of Fundraising",
       description: "Sourcing and allocating funds for VCA's events and programs."
     },
@@ -67,6 +67,11 @@ function EBoard() {
       name: "Ryan McDonald",
       role: "Vice President of Strategy Coordination",
       description: "Supporting VCA's leadership and streamlining operations."
+    },
+    {
+      name: "Noor Chadha",
+      role: "Vice President of Events",
+      description: "Overseeing workshopping events and opportunities for VCA."
     },
   ]
 
