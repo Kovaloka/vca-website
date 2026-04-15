@@ -6,14 +6,24 @@ function EBoard() {
       description: "Leading VCA's vision, strategy, and partnerships across the 2025-2026 school year."
     },
     {
-      name: "Ryan McDonald",
-      role: "Treasurer",
-      description: "Managing VCA's finances, budgeting, and funding for events and programs."
+      name: "Nikita Swaminathan",
+      role: "Vice President of Administration",
+      description: "Overseeing VCA's administrative functions and ensuring smooth operations."
     },
     {
-      name: "Garni Khanzadian",
-      role: "Secretary",
-      description: "Overseeing meeting coordination, attendance tracking, and member communications."
+      name: "Pierre Boktor",
+      role: "Vice President of Fundraising",
+      description: "Sourcing and allocating funds for VCA's events and programs."
+    },
+    {
+      name: "Jalena Dawson",
+      role: "Vice President of Marketing",
+      description: "Creating workshopping events and promoting VCA's initiatives."
+    },
+    {
+      name: "Ryan McDonald",
+      role: "Vice President of Strategy Coordination",
+      description: "Supporting VCA's leadership and streamlining operations."
     },
   ]
 
@@ -25,28 +35,28 @@ function EBoard() {
     },
     {
       name: "Marcus",
-      role: "Vice President",
-      description: "Supporting VCA's leadership and initiatives for the 2026-2027 school year."
+      role: "Vice President of Strategy",
+      description: "Supporting VCA's leadership and streamlining operations."
     },
     {
       name: "Khalid",
-      role: "Vice President",
-      description: "Supporting VCA's leadership and initiatives for the 2026-2027 school year."
+      role: "Director of Outreach & Initiative",
+      description: "Creating opportunities for VCA members to engage with the broader community."
     },
     {
       name: "Purav",
-      role: "Vice President",
-      description: "Supporting VCA's leadership and initiatives for the 2026-2027 school year."
+      role: "Vice President of Fundraising",
+      description: "Sourcing and allocating funds for VCA's events and programs."
     },
     {
       name: "Nidhi",
-      role: "Vice President",
-      description: "Supporting VCA's leadership and initiatives for the 2026-2027 school year."
+      role: "Vice President of Administration",
+      description: "Controlling VCA's administrative functions and ensuring smooth operations."
     },
     {
       name: "Xavier",
-      role: "Vice President",
-      description: "Supporting VCA's leadership and initiatives for the 2026-2027 school year."
+      role: "Vice President of Marketing",
+      description: "Creating workshopping events and promoting VCA's initiatives."
     },
   ]
 

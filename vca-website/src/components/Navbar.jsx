@@ -5,7 +5,7 @@ function Navbar() {
       {/* Mobile Only */}
       <div className="flex md:hidden flex-col items-center gap-2">
         <p className="text-white font-bold text-lg text-center">
-          Venture Capitalist Association{' '}
+          Venture Capital Association{' '}
           <span className="text-[#fad6a5] text-xs font-bold">@UCR</span>
         </p>
         <ul className="flex gap-4 text-gray-300 text-sm justify-center flex-wrap">
@@ -20,7 +20,7 @@ function Navbar() {
       {/* Desktop Only */}
       <div className="hidden md:flex items-center justify-between">
         <div className="text-xl font-bold text-white">
-          Venture Capitalist Association{' '}
+          Venture Capital Association{' '}
           <span className="text-[#fad6a5] text-xs font-bold">@UCR</span>
         </div>
         <ul className="flex gap-6 text-gray-300">
