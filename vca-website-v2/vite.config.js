@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/vca-website-v2/',
+  base: '/vca-website/',
   plugins: [
     react(),
     tailwindcss(),
