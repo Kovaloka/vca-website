@@ -7,9 +7,9 @@ const stats = [
     sub: 'Fall Quarter is TBD',
   },
   {
-    label: 'All Majors',
-    value: 'Finance, CS, Bio',
-    sub: 'Everyone belongs here',
+    label: 'Majors',
+    value: 'All Majors are Welcome',
+    sub: 'Venture Capital is great for All Majors',
   },
   {
     label: '3 Pillars',
