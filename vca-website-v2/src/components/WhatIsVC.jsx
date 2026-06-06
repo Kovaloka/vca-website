@@ -4,27 +4,65 @@ const slides = [
   {
     number: '01',
     title: 'The Simple Definition',
-    body: "Venture capital is a type of private investment where firms provide funding to early-stage startups in exchange for equity — a stake in the company. It's high risk, high reward, and it's how the biggest companies in the world got off the ground.",
+    body: "'Venture capital turns ideas and basic research into products and services that have transformed the world. Building high growth companies from the ground up. Venture-backed companies accounted for some of the largest publicly traded companies by market capitalization: Microsoft ($780B), Apple ($746B), Amazon ($737B), Alphabet ($727B), and Facebook ($374B).' - National Venture Capital Association",
   },
   {
     number: '02',
     title: 'How It Works',
-    body: "Startups raise money in rounds: Pre-Seed and Seed funding get an idea off the ground. Series A, B, and C scale the business. Eventually, a company may go public (IPO) or get acquired — and that's when investors see their return.",
+    body: [
+      "As companies get larger and more successful, they'll raise money in consecutve stages called ",
+      <em key="rounds">rounds</em>,
+      ": There are typically five rounds: Pre-Seed, Seed, Series A,B,C, and IPO."
+    ],
   },
   {
     number: '03',
-    title: "Who's Involved",
-    body: "Three key players make VC work: the founders who build the company, the venture capitalists who invest in it, and the limited partners (LPs) — pension funds, universities, and wealthy individuals — who fund the VC firms themselves.",
+    title: 'The Five Rounds',
+    body: [
+      <em key="Pre-Seed">Pre-Seed</em>,
+      " turns the plan into a functional prototype. The Founders, friends, family, and 'Angel Investors' (Wealthy individuals betting on the startup) will often be the primary investors at this stage.",
+      <em key="Seed funding">Seed funding</em>,
+      " proves the plan works and is profitable. At this point, early-stage VC firms and larger Angel Investors start to take notice and invest in the startup.",
+      <em key="Series A">Series A</em>, 
+      " launces a repeatable blueprint that consistently generates money.",
+      <em key="Series B">Series B</em>,
+      " takes that blueprint and rapidly scales it, often hiring salespeople and expanding to new cities.",
+      <em key="Series C"></em>,
+      "is when the business becomes a market leader, they may buy out smaller businesses, invent brand new products, or move overseas for larger scaling. At this point, you've probably seen their products in your house or a friend's house. Eventually, a company may go", 
+      <em key="public (IPO)">public (IPO)</em>,
+      "it becomes a public company like many you see today (Apple, Netflix, etc.). This is when VC Investors sell their piece of ownership in the company, cashing in often millions or billions in the process."
+    ],
   },
   {
     number: '04',
-    title: 'Why It Matters',
-    body: "VC-backed companies have created millions of jobs and reshaped entire industries. Understanding how capital flows through this ecosystem is one of the most valuable skills you can build — whether you want to work in finance, start a company, or just understand how the modern economy works.",
+    title: "Who's Involved",
+    body: [
+      "Three key players make VC work: the ",
+    <em key="Founders">Founders</em>,
+    ", they build the product, hire the team, run the daily operations, and sell the service that the venture capitalists invest in; the ",
+    <em key="Venture Capitalists">Venture Capitalist</em>,
+    ", the professionals who invest and manage the fund. They'll scout startups, negotiate the deals, provide mentorship, and sit on the board of director's for the company; last but not least, the ",
+    <em key="limited partners">limited partners</em>,
+    " (LPs). They are the quiet giants who truly provide the money. These are typically pension funds, universities, and ultra-wealthy individuals who invest personal or large sums of cash directly into the VC firm, trusting the Venture Capitalists to grow it for them.",
+    ],
   },
   {
     number: '05',
+    title: 'Why It Matters',
+    body: "VC-backed companies have created millions of jobs, transformed global infrastructure, and reshaped entire industries under their watch. Industry giants like Apple. Google, Uber, Airbnb, or even SpaceX would never grown to their scale without the eye of Venture Capital. Understanding how capital flows through the modern ecosystem of today is one of the most valuable skills you can build regardless of your career goals. Whether you want to work in finance or business, start your own company one day, or evenjust understand how the modern economy works, Venture Capital is there to work for you, not against you.",
+  },
+  {
+    number: '06',
     title: 'The VCA Connection',
-    body: "That's exactly what VCA at UCR is here for. Through speaker events, networking, and hands-on learning, we give every student — regardless of major — a real introduction to the world of venture capital and finance.",
+    body: [
+      "That's exactly what VCA at UCR is here for. Through VCA, you'll get direct experience in: ",
+      <em key="speaker events">speaker events</em>,
+      " - get a chance to hear from real Venture Capitalists and see how they grew from it; ",
+      <em key="networking">networking</em>,
+      " - connect with peers and industry giants like members from BlackRock, WallStreet, and many more! You'll also gain immense ",
+      <em key="hands-on learning">hands-on learning</em>,
+      " through pitch competitions, stock pitches, workshops, and team projects that you'll present to the board of VCA! We give every student areal introduction to the world of venture capital and finance, regardless of major.",
+    ],
   },
 ]
 
