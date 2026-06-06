@@ -3,7 +3,8 @@ import vcaLogo from '../assets/vca-logo.png'
 
 const links = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
+  { label: 'VC 101', href: '#what-is-vc' },
+  { label: 'About Us', href: '#about' },
   { label: 'Events', href: '#events' },
   { label: 'E-Board', href: '#eboard' },
   { label: 'Contact', href: '#contact' },

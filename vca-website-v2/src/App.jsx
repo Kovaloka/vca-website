@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import WhatIsVC from './components/WhatIsVC'
 import About from './components/About'
 import Events from './components/Events'
 import EBoard from './components/EBoard'
@@ -14,6 +15,7 @@ export default function App() {
       <SideNav />
       <main>
         <Hero />
+        <WhatIsVC />
         <About />
         <Events />
         <EBoard />
